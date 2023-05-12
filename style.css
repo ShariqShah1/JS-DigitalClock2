@@ -1,0 +1,102 @@
+body {
+    background: black
+}
+
+@font-face {
+    font-family: "s7";
+    src: url(https://dl.dropbox.com/s/9w04nj4cqqbwr6z/DSEG7Classic-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: s14;
+    src: url(https://dl.dropbox.com/s/qzty6p6p7nwfhbg/DSEG14Modern-Italic.woff)
+}
+
+
+
+.clock-out {
+    background: rgb(0, 0, 0);
+    height: 175px;
+    width: 450px;
+    border-radius: 10px;
+    border: 5px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.clock {
+    font-family: s7;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.time-bg {
+    color: rgba(194, 206, 206, 0.12);
+    position: absolute;
+    left: 110px
+}
+#seconds-front, #seconds-bg{
+    font-size: 30px;
+}
+
+.time {
+    font-family: s14 !important;
+    font-size: 14px;
+    top: 15px;
+    left: -20px;
+    top: 0px;
+    position: absolute;
+    font-style: italic;
+}
+
+.time-front {
+    position: absolute;
+    color: red;
+    left: 110px;
+}
+
+.date {
+    font-family: s7;
+    font-size: 35px;
+    top: 110px;
+    left: -20px;
+    position: absolute;
+    font-style: italic;
+}
+
+.date-bg {
+    color: rgba(194, 206, 206, 0.12);
+    position: absolute;
+    left: 60px
+}
+
+.date-front {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    left: 60px
+}
+
+.day {
+    font-family: s14;
+    font-size: 32px;
+    left: 280px;
+    top: 113px;
+    position: absolute;
+    font-style: italic;
+}
+
+.day-bg {
+    color: rgba(194, 206, 206, 0.12);
+    position: absolute;
+    left: 60px
+}
+
+.day-front {
+    position: absolute;
+    color: rgb(255, 0, 0);
+    left: 60px
+}
